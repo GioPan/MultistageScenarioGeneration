@@ -1,5 +1,16 @@
-4
-Cash 4.33 0.94 0.80 2.62 6.68
-Bonds 5.91 0.82 0.49 2.39 7.96
-Domesticstocks 7.61 13.38 -0.75 2.93 -25.84
-Internationasltocks 8.09 15.70 -0.74 2.97 -31.16
+Name	Mean  std	sk	  ku   rp  vc mr 
+Bonds 	5.91  0.82  0.49 2.39 0.0 0.3 0.2
+DStocks 7.61 13.38 -0.75 2.93 0.3 0.3 0.0
+Cash 	4.33  0.94  0.8  2.62 0.0 0.3 0.2
+IStocks 8.09 15.70 -0.74 2.97 0.3 0.3 0.0
+
+Legend
+std = standard deviation
+sk = skewness (3rd moment)
+ku = kurtosis (4ht moment)
+rp = risk premium
+vc = volatility clumping parameter
+mr = mean reversion factor
+
+
+
