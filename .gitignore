@@ -1,0 +1,11 @@
+/build/
+/tex/*.pdf
+/tex/*.out
+/tex/*.aux
+/tex/*.log
+/tex/*.blg
+/tex/*.bbl
+/tex/*.synctex
+/nbproject/
+*.mf
+*.xml
