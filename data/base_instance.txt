@@ -1,8 +1,9 @@
-Name	Mean  std	sk	  ku   rp  vc mr 
-Bonds 	5.91  0.82  0.49 2.39 0.0 0.3 0.2
-DStocks 7.61 13.38 -0.75 2.93 0.3 0.3 0.0
-Cash 	4.33  0.94  0.8  2.62 0.0 0.3 0.2
-IStocks 8.09 15.70 -0.74 2.97 0.3 0.3 0.0
+4
+Name	Mean  std	sk	  ku   rp  vc mr  wc
+Bonds 	5.91  0.82  0.49 2.39 0.0 0.3 0.2 0.2
+DStocks 7.61 13.38 -0.75 2.93 0.3 0.3 0.0 -3.2
+Cash 	4.33  0.94  0.8  2.62 0.0 0.3 0.2 0.0
+IStocks 8.09 15.70 -0.74 2.97 0.3 0.3 0.0 -4.3
 
 Legend
 std = standard deviation
@@ -11,6 +12,7 @@ ku = kurtosis (4ht moment)
 rp = risk premium
 vc = volatility clumping parameter
 mr = mean reversion factor
+wc = worst case
 
 
 

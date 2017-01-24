@@ -25,6 +25,10 @@ public class Main {
         // The first number in the file is the number of assets
         int n_assets = scanner.nextInt();
         
+        // Skips the header
+        scanner.nextLine();
+        scanner.nextLine();
+        
         // For each asset reads the properties
         System.out.println("Targets :");
         for(int i = 1; i <= n_assets; i++){
@@ -33,11 +37,19 @@ public class Main {
             double standard_deviation = scanner.nextDouble();
             double skeweness = scanner.nextDouble();
             double kurtosis = scanner.nextDouble();
+            double risk_premium = scanner.nextDouble();
+            double volatility_clumping = scanner.nextDouble();
+            double mean_reversion_factor = scanner.nextDouble();
             double worst_case = scanner.nextDouble();
             
-            System.out.println(asset_name+" : \n"+"Mean = "+expected_value+"\n SD = "
-                    +standard_deviation+" \n skeweness = "+skeweness+"\n kurtosis = "
-                    + kurtosis+"\n worst case = "+worst_case);
+            System.out.println(asset_name+" : \n"+"Mean = "+expected_value
+                    +"\n SD = "+standard_deviation
+                    +" \n skeweness = "+skeweness
+                    +"\n kurtosis = "+ kurtosis
+                    +"\n risk premium = "+risk_premium
+                    +"\n volatility clumping = "+volatility_clumping
+                    +"\n mean reversion = "+mean_reversion_factor
+                    +"\n worst case = "+worst_case);
         }
         
     }    
