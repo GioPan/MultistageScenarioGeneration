@@ -51,6 +51,8 @@ public class Main {
                     +"\n mean reversion = "+mean_reversion_factor
                     +"\n worst case = "+worst_case);
         }
+        ScenarioTree st = new ScenarioTree(3,2);
+        st.print();
         
     }    
 }
